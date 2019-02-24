@@ -19,7 +19,7 @@ $config = [
         [
             'field' => 'last_name',
             'label' => 'Last Name',
-            'rules' => 'trim|required|regex_match[/^[A-Za-z _.-]+$/]'
+            'rules' => 'trim|regex_match[/^[A-Za-z _.-]+$/]' // Allows alphabets and whitespaces only.
         ],
         [
             'field' => 'email',
